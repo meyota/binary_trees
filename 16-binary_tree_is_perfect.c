@@ -20,7 +20,7 @@ int tree_is_perfect(const binary_tree_t *tree)
 	}
 	else if (!tree->left && !tree->right)
 	{
-		return (left);
+		return (1);
 	}
 	else
 	{
